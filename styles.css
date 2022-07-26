@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;600&display=swap');
 
 :root {
-    --primary-color: #9333ea;
+    --primary-color: #3b82f6 ;
     --dark-gray: #4b5563;
     --off-white:#f3f4f6;
 }
@@ -30,16 +30,15 @@ hr {
 
 .link {
     text-decoration: none;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+   
 }
 
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.6rem;
     color: white;
+  
 }
 
 .secondary-link {
@@ -85,6 +84,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero-img {
@@ -102,7 +102,7 @@ hr {
 .section{
     padding: 2rem;
 }
-.section,h1 {
+.section ,h1 {
     text-align: center;
    
 }
@@ -121,4 +121,11 @@ hr {
 }
 .footer .ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+.padding{
+    padding : 1rem 1rem;
 }
