@@ -162,9 +162,7 @@ small {
     border: 0.6rem;
     border-color: var(--gold)
 }
-.contact:hover{
-    background-color: var(--gold);
-}
+
  .contact .image{
     border: 0.6rem;
     border-color: var(--gold);
